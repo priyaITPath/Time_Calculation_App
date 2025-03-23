@@ -167,7 +167,7 @@ const WorkTimeForm = () => {
       </Button>
 
       {logoutTime && (
-        <Box mt={4} textAlign="center">
+        <Box mt={4} textAlign="center" sx={{ color: 'darkslategrey' }}>
           <h3>Your Logout Time:</h3>
           <p className="text-lg">{logoutTime}</p>
         </Box>
